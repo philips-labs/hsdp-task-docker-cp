@@ -1,4 +1,4 @@
-# hsdp-docker-cp
+# hsdp-task-docker-cp
 
 A task for use with [hsdp_function](https://registry.terraform.io/providers/philips-software/hsdp/latest/docs/resources/function) 
 to copy HSDP Docker repositories from one region to another
