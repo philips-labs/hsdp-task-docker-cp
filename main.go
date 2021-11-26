@@ -23,21 +23,32 @@ func main() {
 	sourceRepo := viper.GetString("source_repo")
 	sourceHost := viper.GetString("source_host")
 	sourceNamespace := viper.GetString("source_namespace")
+	if sourceLogin == "" || sourcePassword == "" || sourceHost == "" || sourceNamespace == "" {
+		fmt.Printf("some SOURCE details are missing\n")
+		return
+	}
 
 	tags := strings.Split(viper.GetString("tags"), ",")
+	if len(tags) == 0 || tags[0] == "" {
+		fmt.Printf("missing TAGS, expecting a comma separated list\n")
+		return
+	}
 
 	destLogin := viper.GetString("dest_login")
 	destPassword := viper.GetString("dest_password")
 	destRepo := viper.GetString("dest_repo")
 	destHost := viper.GetString("dest_host")
 	destNamespace := viper.GetString("dest_namespace")
+	if destLogin == "" || destPassword == "" || destHost == "" || destNamespace == "" {
+		fmt.Printf("some DEST details are missing\n")
+	}
 
 	if err := login(sourceHost, sourceLogin, sourcePassword); err != nil {
-		fmt.Printf("failed to login to source: %v\n", err)
+		fmt.Printf("failed to login to SOURCE: %v\n", err)
 		return
 	}
 	if err := login(destHost, destLogin, destPassword); err != nil {
-		fmt.Printf("failed to login to destination: %v\n", err)
+		fmt.Printf("failed to login to DEST: %v\n", err)
 		return
 	}
 
