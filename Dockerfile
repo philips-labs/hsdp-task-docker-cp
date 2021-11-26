@@ -1,4 +1,4 @@
-FROM philipslabs/siderite:v0.12.0 AS siderite
+FROM philipslabs/siderite:v0.12.1 AS siderite
 
 FROM golang:1.17.3-alpine3.14 as builder
 WORKDIR /app
