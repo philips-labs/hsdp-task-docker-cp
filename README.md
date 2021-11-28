@@ -26,24 +26,18 @@ resource "hsdp_function" "docker_cp" {
     CP_SOURCE_LOGIN     = "cf-functional-account-na1"
     CF_SOURCE_PASSWORD  = "passw0rdH3r3"
     CF_SOURCE_NAMESPACE = "loafoe"  
-    CF_SOURCE_REPO      = "microservice"
-    
-    # Which tags to copy
-    CF_TAGS = "v1.0.0,latest"
     
     # Destination
     CF_DEST_HOST        = "docker.eu1.hsdp.io"
     CF_DEST_LOGIN       = "cf-functional-account-eu1"
     CF_DEST_PASSWORD    = "An0therpAssw0rd"
-    CF_DEST_NAMESPACE   = "loafoe"
-    CF_DEST_REPO        = "microservice"
   }
 
-  # Run every 24 hours
-  run_every = "24h"
+  # Run every 60m
+  run_every = "60m"
 
-  # Run for max 30 minutes at a time
-  timeout = 1800
+  # Run for max 60 minutes at a time
+  timeout = 3600
 
   backend {
     credentials = module.siderite_backend.credentials
