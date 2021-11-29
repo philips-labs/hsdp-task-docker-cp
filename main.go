@@ -136,7 +136,7 @@ func hostRegion(host string) (*string, error) {
 	return nil, fmt.Errorf("region for '%s' not found", host)
 }
 
-func login(serverAddress string, user string, password string) interface{} {
+func login(serverAddress string, user string, password string) error {
 	cf, err := config.Load(os.Getenv("DOCKER_CONFIG"))
 	if err != nil {
 		return err
