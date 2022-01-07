@@ -1,6 +1,6 @@
 FROM philipslabs/siderite:v0.12.2 AS siderite
 
-FROM golang:1.17.4-alpine3.14 as builder
+FROM golang:1.17.6-alpine3.14 as builder
 WORKDIR /app
 COPY go.mod .
 COPY go.sum .
