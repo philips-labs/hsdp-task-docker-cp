@@ -1,7 +1,8 @@
 FROM philipslabs/siderite:v0.12.2 AS siderite
 
-FROM golang:1.18.0-alpine3.14 as builder
+FROM golang:1.18.0-alpine3.15 as builder
 WORKDIR /app
+RUN apk add git
 COPY go.mod .
 COPY go.sum .
 # Get dependancies - will also be cached if we won't change mod/sum
