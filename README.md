@@ -24,13 +24,13 @@ resource "hsdp_function" "docker_cp" {
     # Source
     CP_SOURCE_HOST      = "docker.na1.hsdp.io"
     CP_SOURCE_LOGIN     = "cf-functional-account-na1"
-    CF_SOURCE_PASSWORD  = "passw0rdH3r3"
-    CF_SOURCE_NAMESPACE = "loafoe"  
+    CP_SOURCE_PASSWORD  = "passw0rdH3r3"
+    CP_SOURCE_NAMESPACE = "loafoe"  
     
     # Destination
-    CF_DEST_HOST        = "docker.eu1.hsdp.io"
-    CF_DEST_LOGIN       = "cf-functional-account-eu1"
-    CF_DEST_PASSWORD    = "An0therpAssw0rd"
+    CP_DEST_HOST        = "docker.eu1.hsdp.io"
+    CP_DEST_LOGIN       = "cf-functional-account-eu1"
+    CP_DEST_PASSWORD    = "An0therpAssw0rd"
   }
 
   # Run every 60m
