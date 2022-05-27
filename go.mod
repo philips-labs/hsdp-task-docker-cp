@@ -4,15 +4,15 @@ go 1.17
 
 require (
 	github.com/docker/cli v20.10.16+incompatible
-	github.com/google/go-containerregistry v0.8.0
+	github.com/google/go-containerregistry v0.9.0
 	github.com/philips-software/go-hsdp-api v0.64.0
 	github.com/spf13/viper v1.12.0
 )
 
 require (
-	github.com/containerd/stargz-snapshotter/estargz v0.10.1 // indirect
-	github.com/docker/distribution v2.8.0+incompatible // indirect
-	github.com/docker/docker v20.10.12+incompatible // indirect
+	github.com/containerd/stargz-snapshotter/estargz v0.11.4 // indirect
+	github.com/docker/distribution v2.8.1+incompatible // indirect
+	github.com/docker/docker v20.10.16+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
@@ -24,13 +24,13 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hasura/go-graphql-client v0.7.0 // indirect
-	github.com/klauspost/compress v1.13.6 // indirect
+	github.com/klauspost/compress v1.15.4 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.0.2 // indirect
+	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -44,7 +44,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
+	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29 // indirect
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
