@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/docker/cli v20.10.16+incompatible
 	github.com/google/go-containerregistry v0.9.0
-	github.com/philips-software/go-hsdp-api v0.64.0
+	github.com/philips-software/go-hsdp-api v0.65.1
 	github.com/spf13/viper v1.12.0
 )
 
