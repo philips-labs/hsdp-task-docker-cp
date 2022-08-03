@@ -1,6 +1,6 @@
 FROM philipslabs/siderite:v0.12.2 AS siderite
 
-FROM golang:1.18.4-alpine3.15 as builder
+FROM golang:1.19.0-alpine3.15 as builder
 WORKDIR /app
 RUN apk add git
 COPY go.mod .
