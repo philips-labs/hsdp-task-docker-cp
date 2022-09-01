@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/docker/cli v20.10.17+incompatible
 	github.com/google/go-containerregistry v0.10.0
-	github.com/philips-software/go-hsdp-api v0.71.2
+	github.com/philips-software/go-hsdp-api v0.73.0
 	github.com/spf13/viper v1.12.0
 )
 
@@ -23,7 +23,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/hasura/go-graphql-client v0.7.1 // indirect
+	github.com/hasura/go-graphql-client v0.8.0 // indirect
 	github.com/klauspost/compress v1.15.4 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
