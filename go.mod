@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/docker/cli v20.10.18+incompatible
 	github.com/google/go-containerregistry v0.11.0
-	github.com/philips-software/go-hsdp-api v0.73.6
+	github.com/philips-software/go-hsdp-api v0.74.1
 	github.com/spf13/viper v1.13.0
 )
 
@@ -17,7 +17,7 @@ require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/go-playground/validator/v10 v10.11.0 // indirect
+	github.com/go-playground/validator/v10 v10.11.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
