@@ -822,8 +822,8 @@ github.com/pelletier/go-toml/v2 v2.0.5/go.mod h1:OMHamSCAODeSsVrwwvcJOaoN0LIUIaF
 github.com/peterbourgon/diskv v2.0.1+incompatible/go.mod h1:uqqh8zWWbv1HBMNONnaR/tNboyR3/BZd58JJSHlUSCU=
 github.com/phayes/checkstyle v0.0.0-20170904204023-bfd46e6a821d/go.mod h1:3OzsM7FXDQlpCiw2j81fOmAwQLnZnLGXVKUzeKQXIAw=
 github.com/philhofer/fwd v1.0.0/go.mod h1:gk3iGcWd9+svBvR0sR+KPcfE+RNWozjowpeBVG3ZVNU=
-github.com/philips-software/go-hsdp-api v0.75.0 h1:AjYazGCntd6jH2xtGhxqqgy49bjvvAC+4bljvFVDE8k=
-github.com/philips-software/go-hsdp-api v0.75.0/go.mod h1:rd6uphXchFcYW2ehT5xWGobAZrIod7qSOLZUqWh61y4=
+github.com/philips-software/go-hsdp-api v0.75.3 h1:SOaX6IZ/EYf6lJ0Ih6JvzAQiCzMQA1AJZLllBKCQHYs=
+github.com/philips-software/go-hsdp-api v0.75.3/go.mod h1:rd6uphXchFcYW2ehT5xWGobAZrIod7qSOLZUqWh61y4=
 github.com/philips-software/go-hsdp-signer v1.4.0/go.mod h1:/QehZ/+Aks2t1TFpjhF/7ZSB8PJIIJHzLc03rOqwLw0=
 github.com/pires/go-proxyproto v0.0.0-20191211124218-517ecdf5bb2b/go.mod h1:Odh9VFOZJCf9G8cLW5o435Xf1J95Jw9Gw5rnCjcwzAY=
 github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e/go.mod h1:pJLUxLENpZxwdsKMEsNbx1VGcRFpLqf3715MtcvvzbA=
