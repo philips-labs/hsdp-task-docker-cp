@@ -12,7 +12,7 @@ RUN go mod download
 COPY . .
 RUN go build -o hsdp-docker-cp .
 
-FROM alpine:3.16.2
+FROM alpine:3.17.1
 COPY --from=builder /app/hsdp-docker-cp /usr/bin/hsdp-docker-cp
 COPY --from=siderite /app/siderite /usr/bin/siderite
 
