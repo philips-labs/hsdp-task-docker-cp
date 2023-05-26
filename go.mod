@@ -3,7 +3,7 @@ module hsdp-docker-cp
 go 1.17
 
 require (
-	github.com/docker/cli v23.0.5+incompatible
+	github.com/docker/cli v24.0.2+incompatible
 	github.com/google/go-containerregistry v0.14.0
 	github.com/philips-software/go-hsdp-api v0.80.1
 	github.com/spf13/viper v1.15.0
